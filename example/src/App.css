@@ -40,3 +40,81 @@
 .read-the-docs {
   color: #888;
 }
+
+.docs-root {
+  display: flex;
+  min-height: 100vh;
+  background: #f9f9fb;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+.docs-sidebar {
+  width: 260px;
+  background: #fff;
+  border-right: 1px solid #eee;
+  padding: 32px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+.docs-logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0 32px 24px 32px;
+  color: #222;
+  letter-spacing: -0.5px;
+}
+.docs-sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 32px;
+}
+.docs-section {
+  margin: 18px 0 4px 0;
+  font-size: 0.95rem;
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.docs-sidebar a {
+  color: #444;
+  text-decoration: none;
+  padding: 7px 0 7px 8px;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  transition: background 0.13s;
+}
+.docs-sidebar a.active {
+  background: #f3f3f7;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+.docs-sidebar a:hover {
+  background: #f5f5fa;
+}
+.docs-content {
+  flex: 1;
+  padding: 48px 40px 40px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.docs-content h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #1a1a1a;
+}
+.docs-content h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  color: #222;
+}
+.docs-content p {
+  color: #333;
+  line-height: 1.7;
+}
