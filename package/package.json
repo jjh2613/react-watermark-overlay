@@ -1,6 +1,6 @@
 {
   "name": "react-watermark-overlay",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A React overlay watermark component for staging/test environments",
   "main": "dist/Watermark.js",
   "types": "dist/Watermark.d.ts",
